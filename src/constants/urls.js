@@ -17,5 +17,23 @@ export const urls = {
         post: '/brand/add',
         delete: (id) => `/brand/delete/${id}`,
         put: (id) => `/brand/update/${id}`
-    }
+    }  ,
+      Products:{
+        getList: '/Products/list',
+        post: '/Products/add',
+        delete: (id) => `/Products/${id}`,
+        put: (id) => `/Products/edit/${id}`
+    },
+    Banners:{
+        getList: '/Banners/list',
+        post: '/Banners/add',
+        delete: (id) => `/Banners/${id}`,
+        put: (id) => `/Banners/edit/${id}`
+    },
+    Home:{
+        getList: '/Home/list',
+        post: '/Home/add',
+        delete: (id) => `/Home/${id}`,
+        put: (id) => `/Home/edit/${id}`
+    },
 } 

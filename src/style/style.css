@@ -35,3 +35,6 @@ body,
     width: 20px ;
     height: 20px;
 }
+.ant-menu{
+    background-color:rgb(128, 128, 128);
+}

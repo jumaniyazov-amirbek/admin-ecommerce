@@ -26,6 +26,7 @@ const Main = () => {
           mode="inline"
           defaultSelectedKeys={['1']}
           items={menuItems}
+          
         />
       </Sider>
       <Layout>
@@ -33,7 +34,8 @@ const Main = () => {
           style={{
             padding: 0,
             background: colorBgContainer,
-            
+            backgroundColor:'rgb(128, 128, 128)',
+         
           }}
         >
           <Button
